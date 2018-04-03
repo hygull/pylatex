@@ -1,0 +1,5 @@
+\begin{lstlisting}
+const char *processing() const{
+    somestring = "-1";
+}
+\end{lstlisting}

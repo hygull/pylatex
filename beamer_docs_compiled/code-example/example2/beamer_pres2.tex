@@ -1,0 +1,28 @@
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage{cmap}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\lstset{breakatwhitespace,
+language=C++,
+columns=fullflexible,
+keepspaces,
+breaklines,
+tabsize=3, 
+showstringspaces=false,
+extendedchars=true}
+
+\begin{document}
+\defverbatim[colored]\lst{%
+\begin{lstlisting}[tabsize=8,basicstyle=\ttfamily]
+const char *processing() const{
+    somestring = "-1";
+}
+\end{lstlisting}
+}
+
+\begin{frame}
+\lst
+\end{frame}
+
+\end{document}

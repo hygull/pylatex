@@ -1,0 +1,10 @@
+*.aux
+*.log
+*.dvi
+*.fdb_latexmk
+*.snm
+*.toc
+*.mp4
+*.nav
+*.fls
+*.pyc
