@@ -395,10 +395,12 @@ Enjoy more examples by visiting on this [link](https://jeltef.github.io/PyLaTeX/
 
 [Matplotlib tight_layout()'s usage best documentation](https://matplotlib.org/users/tight_layout_guide.html)
 
-pdflatex command - [pdflatex PAPER1.tex && bibtex PAPER1.aux && pdflatex PAPER1.tex && pdflatex PAPER1.tex](
+pdflatex command - [pdflatex MYPAPER.tex && bibtex MYPAPER.aux && pdflatex MYPAPER.tex && pdflatex MYPAPER.tex](
 https://tex.stackexchange.com/questions/43325/citations-not-showing-up-in-text-and-bibiography)
 
 latexmk command - [latexmk -pdf](http://mg.readthedocs.io/latexmk.html)
 
-[GhostScript - Ghostscript is an interpreter for the PostScript page description language used by laser printers](https://www.ghostscript.com/download/gsdnld.html), [GSView - GSview is a graphical interface for Ghostscript under MS-Windows](http://pages.cs.wisc.edu/~ghost/gsview/get50.htm). I compiled my latex files without the installation of these two things. I need to check it as here the GSView is for manipulating PDF documents.
+[GhostScript](https://www.ghostscript.com/download/gsdnld.html) - Ghostscript is an interpreter for the PostScript page description language used by laser printers
+
+[GSView](http://pages.cs.wisc.edu/~ghost/gsview/get50.htm) - GSview is a graphical interface for Ghostscript under MS-Windows. I compiled my latex files without the installation of these two things. I need to check it as here the GSView is for manipulating PDF documents.
 
